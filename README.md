@@ -1,14 +1,14 @@
 ![PsychionalEngineLogo](docs/img/PsychEngineLogoTweak.png)
 
-Engine originally used on [Mind Games Mod](https://gamebanana.com/mods/301107), intended to be a fix for the vanilla version's many issues while keeping the casual play aspect of it. Also aiming to be an easier alternative to newbie coders.
+サイケエンジンは元々[Mind Games Mod](https://gamebanana.com/mods/301107)用に開発されたエンジンで、本家FNFの多くの問題(ラグ、入力判定)などを修正しつつ、また、プログラミングの知識を必要としないでMOD作成が行える、お手軽さが魅力のエンジンです。
 
-## Installation:
+## ソースコードのコンパイル方法:
 
-Refer to [the Build Instructions](/docs/BUILDING.md)
+[コンパイル方法](/docs/BUILDING.md)をご覧ください。
 
-## Customization:
+## カスタマイズ:
 
-If you wish to disable things like *Lua Scripts* or *Video Cutscenes*, you can refer to the `Project.xml` file.
+Lua スクリプトやビデオカットシーンを無効にしたい場合は、ソースコードの`Project.xml`を開いてください。
 
 Inside `Project.xml`, you will find several variables to customize Psych Engine to your liking.
 
