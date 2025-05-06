@@ -3,35 +3,37 @@ Psych Engine (訳してサイケエンジン) の[README](https://github.com/Sha
 
 ![PsychionalEngineLogo](docs/img/PsychEngineLogoTweak.png)
 
-Psych Engineは元々[Mind Games Mod](https://gamebanana.com/mods/301107)用に開発されたエンジンで、本家FNFの多くの問題(ラグ、入力判定)などを修正しつつ、また、プログラミングの知識を必要としないでMOD作成が行えるお手軽さが、魅力のエンジンです。
+Psych Engineは元々[Mind Games Mod](https://gamebanana.com/mods/301107)用に開発されたエンジンで、本家FNFの多くの問題(ラグ、入力判定)などを修正しつつ、また、プログラミングの知識を必要としないでMOD作成が行えるお手軽さが魅力のエンジンです。
 
 ## ソースコードのコンパイル方法:
 
 [コンパイル方法](/docs/BUILDING.md)をご覧ください。
 
-## カスタマイズ:
+## カスタマイズオプション:
 
-Lua スクリプトやビデオカットシーンを無効にしたい場合は、ソースコードのルートフォルダ内にある[Project.xml](https://github.com/ShadowMario/FNF-PsychEngine/blob/main/README.md)を開いてください。
+Luaスクリプトやビデオカットシーンを無効にしたい場合は、ソースコードのルートフォルダ内にある[Project.xml](https://github.com/ShadowMario/FNF-PsychEngine/blob/main/Project.xml)を開いてください。
 
 `Project.xml`にはPsych Engineを好みにカスタマイズするための変数がいくつかあります。
 
-To start you off, disabling *Video Cutscenes* should be simple, simply delete the line `"VIDEOS_ALLOWED"` or comment it out by wrapping the line in XML-like comments, like this: `<!-- YOUR_LINE_HERE -->`
+まずビデオ カットシーンを無効にするには、`"VIDEOS_ALLOWED"`の行を削除するか、または`<!-- YOUR_LINE_HERE -->`のようなXMLコメントで囲んでコメントアウトするだけです。
 
-Same goes for *Lua Scripts*, comment out or delete the line with `LUA_ALLOWED`, this and other customization options are all available within the `Project.xml` file.
+Luaスクリプトも同じです。`LUA_ALLOWED`の行を削除するか、`<!-- YOUR_LINE_HERE -->`のようなXMLコメントで囲んでコメントアウトするだけです。
 
-## Softcoding (.lua/.hx)
-For this you can head over to [the wiki](https://shadowmario.github.io/psychengine.lua)
+同様にLuaスクリプト、ビデオカットシーン限らずその他のカスタマイズオプションがすべて`Project.xml`ファイル内で削除、追加、編集ができます。
 
-There you can learn how to use the 212 PlayState funcions in your mod!
+## lua言語・haxe言語を使ったMOD作成 (.lua/.hx)
+こちらに関しては [Lua Script AIPウィキ](https://shadowmario.github.io/psychengine.lua)をご覧ください。
 
-## Credits:
-* Shadow Mario - Main Programmer and Head of Psych Engine.
-* Riveren - Main Artist/Animator of Psych Engine.
+Lua Script AIPウィキでは212個のPlayState機能を使ったMOD作成を学ぶことができます。
 
-### Special Thanks
-* bbpanzu - Ex-Team Member (Programmer).
-* crowplexus - HScript Iris, Input System v3, and Other PRs.
-* Kamizeta - Creator of Pessy, Psych Engine's mascot.
+## クレジット:
+* Shadow Mario - メインプログラマー・Psych Engine開発チームのリーダー
+* Riveren - Psych Engineのメインアーティスト・アニメーター
+
+### スペシャルサンクス
+* bbpanzu - 元チームメンバー (プログラマー)
+* crowplexus - HScript Iris, Input System v3,の開発およびその他のPRs。
+* Kamizeta - Psych Engineのマスコット、Pessyの作者
 * MaxNeton - Loading Screen Easter Egg Artist/Animator.
 * Keoiki - Note Splash Animations and Latin Alphabet.
 * SqirraRNG - Crash Handler and Base code for Chart Editor's Waveform.
@@ -42,11 +44,11 @@ There you can learn how to use the 212 PlayState funcions in your mod!
 * superpowers04 - LUA JIT Fork.
 * CheemsAndFriends - Creator of FlxAnimate.
 * Ezhalt - Pessy's Easter Egg Jingle.
-* MaliciousBunny - Video for the Final Update.
+* MaliciousBunny - Psych Engine最終アップデート(1.0)の[トレーラービデオ](https://www.youtube.com/watch?v=5VGtFyuicCg)作成
 
 ***
 
-# Features
+# Psych Engineの特徴
 
 ## Attractive animated dialogue boxes:
 
