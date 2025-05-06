@@ -3,7 +3,7 @@ Psych Engine (訳してサイケエンジン) のREADMEやWikiなどを日本語
 
 ![PsychionalEngineLogo](docs/img/PsychEngineLogoTweak.png)
 
-Psych Engineは元々[Mind Games Mod](https://gamebanana.com/mods/301107)用に開発されたエンジンで、本家FNFの多くの問題(ラグ、入力判定)などを修正しつつ、また、プログラミングの知識を必要としないでMOD作成が行える、お手軽さが魅力のエンジンです。
+Psych Engineは元々[Mind Games Mod](https://gamebanana.com/mods/301107)用に開発されたエンジンで、本家FNFの多くの問題(ラグ、入力判定)などを修正しつつ、また、プログラミングの知識を必要としないでMOD作成が行えるお手軽さが、魅力のエンジンです。
 
 ## ソースコードのコンパイル方法:
 
