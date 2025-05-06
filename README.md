@@ -1,4 +1,4 @@
-Psych Engine (訳してサイケエンジン) のREADMEやWikiなどを日本語に訳しています。
+Psych Engine (訳してサイケエンジン) の[README](https://github.com/ShadowMario/FNF-PsychEngine/blob/main/README.md)や[Wiki](https://github.com/ShadowMario/FNF-PsychEngine/wiki)などを日本語に訳しています。
 もちろんフォーク大歓迎です！ Psych Engine開発チーム、そしてTHE FUNKIN CREW INCの皆様に多大なる感謝を。🔥🔥🔥❤️❤️❤️
 
 ![PsychionalEngineLogo](docs/img/PsychEngineLogoTweak.png)
