@@ -11,7 +11,7 @@ Psych Engineは元々[Mind Games Mod](https://gamebanana.com/mods/301107)用に�
 
 ## カスタマイズ:
 
-Lua スクリプトやビデオカットシーンを無効にしたい場合は、ソースコードのルートフォルダ内にある`Project.xml`を開いてください。
+Lua スクリプトやビデオカットシーンを無効にしたい場合は、ソースコードのルートフォルダ内にある[Project.xml](https://github.com/ShadowMario/FNF-PsychEngine/blob/main/README.md)を開いてください。
 
 `Project.xml`にはPsych Engineを好みにカスタマイズするための変数がいくつかあります。
 
