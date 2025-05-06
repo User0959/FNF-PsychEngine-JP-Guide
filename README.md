@@ -1,4 +1,4 @@
-Psych Engine (訳してサイケエンジン) の[README](https://github.com/ShadowMario/FNF-PsychEngine/blob/main/README.md)や[Wiki](https://github.com/ShadowMario/FNF-PsychEngine/wiki)などを日本語に訳しています。
+Psych Engineの[README](https://github.com/ShadowMario/FNF-PsychEngine/blob/main/README.md)や[Wiki](https://github.com/ShadowMario/FNF-PsychEngine/wiki)などを日本語に訳しています。
 もちろんフォーク大歓迎です！ Psych Engine開発チーム、そしてTHE FUNKIN CREW INCの皆様に多大なる感謝を。🔥🔥🔥❤️❤️❤️
 
 ![PsychionalEngineLogo](docs/img/PsychEngineLogoTweak.png)
@@ -50,11 +50,19 @@ Lua Script AIPウィキでは212個のPlayState機能を使ったMOD作成を学
 
 # Psych Engineの特徴
 
-## Attractive animated dialogue boxes:
+## 会話シーンの時にキャラクターが動くようになりました。
 
-![Animated Dialogue Boxes](docs/img/dialogue.gif)
+## ビフォー
 
-## New Main Menu
+Dialogue by [Friday Night Funkin' Restored](https://gamebanana.com/mods/44223)
+
+![Animated Dialogue Boxes](docs/img/Vanilla_dialogue.gif)
+
+## アフター
+
+![Animated Dialogue Boxes](docs/img/Psych_dialogue.gif)
+
+## 新しくなったメインメニュー！
 * A brand new menu that makes your experience even better!
 ![Main Menu](docs/img/MainMenu.png)
 
