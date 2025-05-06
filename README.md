@@ -11,9 +11,9 @@ Psych Engineは元々[Mind Games Mod](https://gamebanana.com/mods/301107)用に�
 
 ## カスタマイズ:
 
-Lua スクリプトやビデオカットシーンを無効にしたい場合は、ソースコードの`Project.xml`を開いてください。
+Lua スクリプトやビデオカットシーンを無効にしたい場合は、ソースコードのルートフォルダ内にある`Project.xml`を開いてください。
 
-Inside `Project.xml`, you will find several variables to customize Psych Engine to your liking.
+`Project.xml`にはPsych Engineを好みにカスタマイズするための変数がいくつかあります。
 
 To start you off, disabling *Video Cutscenes* should be simple, simply delete the line `"VIDEOS_ALLOWED"` or comment it out by wrapping the line in XML-like comments, like this: `<!-- YOUR_LINE_HERE -->`
 
